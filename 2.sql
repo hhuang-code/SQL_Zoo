@@ -17,7 +17,7 @@ select name, round(gdp / population, -3) from world where gdp >= 1000000000000;
 select name, capital from world where length(name) = length(capital);
 
 -- Q12: Show the name and the capital where the first letters of each match. 
-Don't include countries where the name and the capital are the same word.
+-- Don't include countries where the name and the capital are the same word.
 select name, capital from world where left(name, 1) = left(capital, 1) and name <> capital;
 
 -- Q13: Find the country that has all the vowels (a, e, i, o, u) and no spaces in its name.
