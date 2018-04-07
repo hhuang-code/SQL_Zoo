@@ -1,3 +1,5 @@
+https://sqlzoo.net/wiki/SELECT_from_WORLD_Tutorial
+
 -- Q8: Exclusive OR (XOR). 
 -- Show the countries that are big by area or big by population but not both. Show name, population and area.
 select name, population, area from world 
