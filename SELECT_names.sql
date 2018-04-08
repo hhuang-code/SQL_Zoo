@@ -1,4 +1,4 @@
-https://sqlzoo.net/wiki/SELECT_basics
+https://sqlzoo.net/wiki/SELECT_names
 
 -- Q7: Find the countries that have three or more a in the name.
 select name from world where name like '%a%a%a%';
