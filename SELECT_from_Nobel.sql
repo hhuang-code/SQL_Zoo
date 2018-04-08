@@ -1,4 +1,4 @@
--- https://sqlzoo.net/wiki/SELECT_from_Nobel_Tutorial
+https://sqlzoo.net/wiki/SELECT_from_Nobel_Tutorial
 
 -- Q5: Show all details (yr, subject, winner) of the Literature prize winners for 1980 to 1989 inclusive.
 select * from nobel where subject like 'Literature' and yr between 1980 and 1989;
